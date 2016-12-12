@@ -1,0 +1,76 @@
+
+.cuerpofor{
+	background-image: url(../imagenes1/gym3.jpg);
+}
+.form2{
+	background: rgba(0,0,0,0.4);
+	border-radius: 20px;
+}
+
+
+.leyenda{
+	font-family: 'Baloo Bhaina', cursive;
+	font-family: 'Ramabhadra', sans-serif;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.h3cab{
+	font-family: 'Baloo Bhaina', cursive;
+	font-family: 'Ramabhadra', sans-serif;
+	text-align: center;
+}
+
+#clave{
+	margin-bottom: 5px;
+	border: red 1px solid;
+}
+
+#buton1{
+	float: 0;
+	
+}
+#labelclave{
+	color: #ddd;
+	background: #333;
+	border: black 1px solid;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+#nombre{
+	margin-bottom: 5px;
+	
+}
+
+#fecha{
+	margin-bottom: 5px;
+}
+
+#direccion{
+	margin-bottom: 5px;
+}
+
+#edad{
+	margin-bottom: 4px;
+}
+
+#celular{
+	margin-bottom: 4px;
+}
+
+#disciplina1{
+	margin-bottom: 5px;
+}
+
+#cupo1{
+	margin-bottom: 5px;
+}
+
+#area{
+	height: 100px;
+	width: 350px;
+	min-height: 100px;
+	max-height: 100px;
+	max-width: 350px
+}

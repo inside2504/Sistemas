@@ -1,0 +1,118 @@
+.cuerpo1{
+	background-image: url(../imagenes1/gym3.jpg);
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+
+}
+
+.imagenlogo{
+	width: 500px;
+	margin: auto;
+	background: rgba(0,0,0,0.4);
+	box-sizing: border-box;
+	margin-top: 50px;
+	border-radius: 10px;
+}
+
+.quitar-float{
+	float: none;
+}
+
+
+.forma{
+	width: 500px;
+	margin: auto;
+	background: rgba(0,0,0,0.4);
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 20px;
+
+}
+
+.leyenda{
+	width: 500px;
+	color: #fff;
+}
+.pacifico{
+	color: #FFFFFF;
+	font-family: 'Fjalla One', 
+	sans-serif;
+	
+	text-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.input1 {
+	display: block;
+	padding: 10px;
+	width:100%;
+	margin: 30px 0;
+	font-size: 20px; 
+
+
+}
+
+
+.input1[type="submit"]{
+
+	background-color: #0078e7;
+	border: 0;
+	color : #fff;
+	opacity: 0.8;
+	cursor: pointer;
+	border-radius: 20px;
+	margin-bottom: 0;
+
+}
+
+.input1[type="submit"]:hover{
+	opacity: 1;
+}
+
+.input1[type="submit"]:active{
+	transform: scale(0.95);
+
+}	
+
+
+@media(max-width: 768px){
+	.forma{
+		width: 75%;
+	}
+
+}
+
+@media(max-width: 480px){
+	.forma{
+		width: 100%;
+	}
+}
+
+
+
+@media(max-width: 768px){
+	.leyenda{
+		width: 75%;
+	}
+
+}
+
+@media(max-width: 480px){
+	.leyenda{
+		width: 100%;
+	}
+}
+
+@media(max-width: 768px){
+	.imagenlogo{
+		width: 75%;
+	}
+}
+
+@media(max-width: 480px){
+	.imagenlogo{
+		width: 100%;
+	}
+}
