@@ -1,6 +1,6 @@
 <?php
 session_start();
-$conexion=mysqli_connect("localhost", "root", "Inside09", "sistemas");
+$conexion=mysqli_connect("localhost", "root", "alan95", "sportcenterx");
 
 
 	if(isset($_POST["Usuario"]) && isset($_POST["Password"])){

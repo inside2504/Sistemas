@@ -1,6 +1,6 @@
 <?php
 
-$conexion=mysqli_connect("localhost", "root", "Inside09", "sistemas");
+$conexion=mysqli_connect("localhost", "root", "alan95", "sportcenterx");
 
 if(isset($_POST["Nombre"]) && isset($_POST["Edad"]) && isset($_POST["Celular"]) && isset($_POST["Estatura"]) && isset($_POST["Direccion"]) && isset($_POST["Fechaingreso"]) && isset($_POST["Fechamensualidad"]) && isset($_POST["Disciplina"])){
 
@@ -13,11 +13,11 @@ if(isset($_POST["Nombre"]) && isset($_POST["Edad"]) && isset($_POST["Celular"]) 
 	$Fechamensualidad =mysqli_real_escape_string($conexion, $_POST["Fechamensualidad"]);
 	$Disciplina =mysqli_real_escape_string($conexion, $_POST["Disciplina"]);
 
-
 //peticiones a la base de datos.
-	$sql="INSERT INTO cliente (Nombre_Completo, Edad, Celular, Estatura, Direccion, Fecha_Ingreso, Fecha_Mensualidad, Disciplina) VALUES ('".$Nombre."', '".$Celular."', '".$Edad."', '".$Estatura."', '".$Direccion."', '".$Fechaingreso."', '".$Fechamensualidad."', '".$Disciplina."')";
+	$sql="INSERT INTO cliente (Nombre_Completo, Celular, Edad, Estatura, Direccion, Fecha_Ingreso, Fecha_Mensualidad, Disciplina) VALUES ('".$Nombre."', '".$Celular."', '".$Edad."', '".$Estatura."', '".$Direccion."', '".$Fechaingreso."', '".$Fechamensualidad."', '".$Disciplina."')";
 
 			$resultado = mysqli_query($conexion, $sql);
+			alert($sql);
 			$numero = mysqli_num_rows($resultado);
 
 			if($numero > 0){

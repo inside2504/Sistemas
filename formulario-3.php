@@ -53,7 +53,7 @@ include("Menu1.php");
 					<div class="form-group">
 						<label class="col-sm-2 control-label id=" id="labelclave">Cupo:</label>			
 						<div class="col-sm-8">
-							<input id="Cupo" name="Cupo" type="text" class="form-control" placeholder="Total del Cupo de la Disciplina" required=""></input>
+							<input id="Cupo" name="Cupo" type="text" class="form-control" placeholder="Total del Cupo de la Disciplina" required="">
 						</div>	
 					</div>
 				</div>	
@@ -62,7 +62,7 @@ include("Menu1.php");
 					<div class="form-group">
 						<label class="col-sm-2 control-label id=" id="labelclave">Costo:</label>
 						<div class="col-sm-8">
-							<input id="Costo" name="Costo" type="text" class="form-control"  placeholder="Ingrese el Costo de la Disciplina" required=""></input>
+							<input id="Costo" name="Costo" type="text" class="form-control"  placeholder="Ingrese el Costo de la Disciplina" required="">
 						</div>	
 					</div>
 				</div>
@@ -93,9 +93,9 @@ include("Menu1.php");
 	<legend></legend>
 				<div >
 
-					<input id="btn-guardar" type="button" class="btn btn-primary" value="Guardar"></input>	
+					<input id="btn-guardar" type="button" class="btn btn-primary" value="Guardar">	
 							
-					<input id="btn-actualizar" type="button" class="btn btn-success" value="Actualizar"></input>
+					<input id="btn-actualizar" type="button" class="btn btn-success" value="Actualizar">
 
 				 <span id="result"></span>
 
@@ -127,7 +127,7 @@ include("Menu1.php");
 						</tr>
 							<?php
 								
-								$conexion=mysqli_connect("localhost", "root", "Inside09", "sistemas");
+								$conexion=mysqli_connect("localhost", "root", "alan95", "sportcenterx");
 
 								$sql="SELECT * FROM clase ORDER BY Id_Clase ASC";
 								$resultado = mysqli_query($conexion, $sql);
@@ -163,7 +163,6 @@ include("Menu1.php");
 	
 
 </body>
-</html>
 
 <script type="text/javascript">
 	$(document).ready(function(){
@@ -288,3 +287,4 @@ $('#btn-actualizar').click(function(){
 });
 }
 </script>
+</html>

@@ -1,6 +1,6 @@
 <?php
 								
-$conexion=mysqli_connect("localhost", "root", "Inside09", "sistemas");
+$conexion=mysqli_connect("localhost", "root", "alan95", "sportcenterx");
 
 	$sql="SELECT * FROM clase ORDER BY Id_Clase ASC";
 		$resultado = mysqli_query($conexion, $sql);

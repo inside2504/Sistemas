@@ -90,7 +90,7 @@ include("Menu1.php");
 					<div class="form-group">
 						<label class="col-sm-3 control-label id=" id="labelclave">Peso:</label>			
 						<div class="col-sm-6">
-							<input type="text" class="form-control" id="cupo1" placeholder="Peso Nuevo" required=""></input>
+							<input type="text" class="form-control" id="cupo1" placeholder="Peso Nuevo" required="">
 						</div>	
 					</div>
 				</div>	
@@ -99,7 +99,7 @@ include("Menu1.php");
 					<div class="form-group">
 						<label class="col-sm-4 control-label id=" id="labelclave">Medida:</label>
 						<div class="col-sm-8">
-							<input type="text" class="form-control" id="cupo1" placeholder="Medida-Pierna" required=""></input>
+							<input type="text" class="form-control" id="cupo1" placeholder="Medida-Pierna" required="">
 						</div>	
 					</div>
 				</div>
@@ -108,7 +108,7 @@ include("Menu1.php");
 					<div class="form-group">
 						<label class="col-sm-4 control-label id=" id="labelclave">Medida:</label>			
 						<div class="col-sm-8">
-							<input type="text" class="form-control" id="cupo1" placeholder="Medida-Cintura" required=""></input>
+							<input type="text" class="form-control" id="cupo1" placeholder="Medida-Cintura" required="">
 						</div>	
 					</div>
 				</div>

@@ -67,126 +67,126 @@ include("Menu1.php");
 	
 </head>
 <body class="cuerpofor">
-<form id="form1" method="POST" action="" class="form1">
-	
-	<div class="col-md-7">
+	<form id="form1" method="POST" action="" class="form1">
 		
+		<div class="col-md-7">
 			
-			<fieldset>
-			<legend class="leyenda">Datos-Generales:</legend>
-				<div class="row">
+				
+				<fieldset>
+				<legend class="leyenda">Datos-Generales:</legend>
+					<div class="row">
 
-						<div class="col-md-6">
-						    <div class="form-group">
-    							<label class="col-sm-2 control-label " id="labelclave">Clave:</label> 
-	    						<div class="col-sm-3">
-	     							<input type="text" class="form-control input-sm" id="clave" placeholder="Clave" 
-	     							disabled="">	     							
-	    						</div>
+							<div class="col-md-6">
+							    <div class="form-group">
+	    							<label class="col-sm-2 control-label " id="labelclave">Clave:</label> 
+		    						<div class="col-sm-3">
+		     							<input type="text" class="form-control input-sm" id="clave" placeholder="Clave" 
+		     							disabled="">	     							
+		    						</div>
 
-		    					<div class="col-md-1">
-							    	<button class="btn btn-primary">...</button>
+			    					<div class="col-md-1">
+								    	<button class="btn btn-primary">...</button>
+								    </div>
 							    </div>
-						    </div>
-						</div>
-
-						<div class="col-md-6">
-							<div class="form-group">
-								<label class="col-sm-3 control-label" id="labelclave">Nombre:</label>
-								<div class="col-sm-8">
-									<input id="Nombre" name="Nombre" type="text" class="form-control input-sm"  placeholder="Nombre Completo" required="">
-								</div>	
 							</div>
-						</div>
 
-						<div class="col-md-6">
-						    <div class="form-group">
-    							<label class="col-sm-2 control-label" id="labelclave">Edad:</label>
-	    						<div class="col-sm-5">
-	     							<input id="Edad" name="Edad" type="text" class="form-control input-sm"  placeholder="Edad" required="">
-	    						</div>
-						    </div>
-						</div>
-
-						<div class="col-md-6">
-							<div class="form-group">
-								<label class="col-sm-3 control-label" id="labelclave">Celular:</label>
-								<div class="col-sm-8">
-									<input id="Celular" name="Celular" type="text" class="form-control input-sm"  placeholder="Celular" required="">
-								</div>	
+							<div class="col-md-6">
+								<div class="form-group">
+									<label class="col-sm-3 control-label" id="labelclave">Nombre:</label>
+									<div class="col-sm-8">
+										<input id="Nombre" name="Nombre" type="text" class="form-control input-sm"  placeholder="Nombre Completo" required="">
+									</div>	
+								</div>
 							</div>
-						</div>
 
-						<div class="col-md-6 form-group-sm">
-						    <div class="form-group">
-    							<label class="col-sm-3 control-label" id="labelclave">Estatura:</label>
-	    						<div class="col-sm-5">
-	     							<input id="Estatura" name="Estatura" type="text" class="form-control"  placeholder="Estatura" required="">
-	    						</div>
-						    </div>
-						</div>
-
-						<div class="col-md-6 form-group-sm">
-							<div class="form-group">
-								<label class="col-sm-3 control-label" id="labelclave">Dirección:</label>
-								<div class="col-sm-8">
-									<input id="Direccion" name="Direccion" type="text" class="form-control" placeholder="Dirección Completo" required="">
-								</div>	
+							<div class="col-md-6">
+							    <div class="form-group">
+	    							<label class="col-sm-2 control-label" id="labelclave">Edad:</label>
+		    						<div class="col-sm-5">
+		     							<input id="Edad" name="Edad" type="text" class="form-control input-sm"  placeholder="Edad" required="">
+		    						</div>
+							    </div>
 							</div>
-						</div>
 
-						<div class="col-md-6 form-group-sm">
-						    <div class="form-group">
-    							<label class="col-sm-3 control-label" id="labelclave">Fecha:</label>
-	    						<div class="col-sm-5">
-	     							<input id="Fechaingreso" name="Fechaingreso" type="text" class="form-control"  placeholder="Fecha de Ingreso" required="">
-	    						</div>
-						    </div>
-						</div>
-
-						<div class="col-md-6 form-group-sm">
-							<div class="form-group">
-								<label class="col-sm-3 control-label" id="labelclave">Fecha:</label>
-								<div class="col-sm-6">
-									<input id="Fechamensualidad" name="Fechamensualidad" type="text" class="form-control"  placeholder="Fecha de Mensualidad" required="" >
-								</div>	
+							<div class="col-md-6">
+								<div class="form-group">
+									<label class="col-sm-3 control-label" id="labelclave">Celular:</label>
+									<div class="col-sm-8">
+										<input id="Celular" name="Celular" type="text" class="form-control input-sm"  placeholder="Celular" required="">
+									</div>	
+								</div>
 							</div>
-						</div>
 
-						<div class="col-md-6 form-group-sm">
-						    <div class="form-group">
-    							<label class="col-sm-3 control-label" id="labelclave">Disciplina:</label>
-	    						<div class="col-sm-5">
-	     							<select id="Disciplina" name="Disciplina" class="form-control" required="">
-									  <option>Disciplinas...</option>
-									  <option>Spinning</option>
-									  <option>Abdominales</option>
-									  <option>Circuit</option>
-									  <option>Zumba</option>
-									</select>
-	    						</div>
-						    </div>
-						</div>
-
-						<div class="col-md-6 form-group-sm">
-							<div class="form-group">
-								<label class="col-sm-2 control-label id=" id="labelclave">Cupo:</label>
-								<div class="col-sm-3">
-									<input id="Cupo" name="Cupo" type="text" class="form-control"  placeholder="Cupo" required=""></input>
-								</div>	
+							<div class="col-md-6 form-group-sm">
+							    <div class="form-group">
+	    							<label class="col-sm-3 control-label" id="labelclave">Estatura:</label>
+		    						<div class="col-sm-5">
+		     							<input id="Estatura" name="Estatura" type="text" class="form-control"  placeholder="Estatura" required="">
+		    						</div>
+							    </div>
 							</div>
-						</div>	
-				</div>
-			</fieldset>	
-</form>
-</div>
+
+							<div class="col-md-6 form-group-sm">
+								<div class="form-group">
+									<label class="col-sm-3 control-label" id="labelclave">Dirección:</label>
+									<div class="col-sm-8">
+										<input id="Direccion" name="Direccion" type="text" class="form-control" placeholder="Dirección Completo" required="">
+									</div>	
+								</div>
+							</div>
+
+							<div class="col-md-6 form-group-sm">
+							    <div class="form-group">
+	    							<label class="col-sm-3 control-label" id="labelclave">Fecha:</label>
+		    						<div class="col-sm-5">
+		     							<input id="Fechaingreso" name="Fechaingreso" type="text" class="form-control"  placeholder="Fecha de Ingreso" required="">
+		    						</div>
+							    </div>
+							</div>
+
+							<div class="col-md-6 form-group-sm">
+								<div class="form-group">
+									<label class="col-sm-3 control-label" id="labelclave">Fecha:</label>
+									<div class="col-sm-6">
+										<input id="Fechamensualidad" name="Fechamensualidad" type="text" class="form-control"  placeholder="Fecha de Mensualidad" required="" >
+									</div>	
+								</div>
+							</div>
+
+							<div class="col-md-6 form-group-sm">
+							    <div class="form-group">
+	    							<label class="col-sm-3 control-label" id="labelclave">Disciplina:</label>
+		    						<div class="col-sm-5">
+		     							<select id="Disciplina" name="Disciplina" class="form-control" required="">
+										  <option>Disciplinas...</option>
+										  <option>Spinning</option>
+										  <option>Abdominales</option>
+										  <option>Circuit</option>
+										  <option>Zumba</option>
+										</select>
+		    						</div>
+							    </div>
+							</div>
+
+							<div class="col-md-6 form-group-sm">
+								<div class="form-group">
+									<label class="col-sm-2 control-label id=" id="labelclave">Cupo:</label>
+									<div class="col-sm-3">
+										<input id="Cupo" name="Cupo" type="text" class="form-control"  placeholder="Cupo" required="">
+									</div>	
+								</div>
+							</div>	
+					</div>
+				</fieldset>	
+			</div>
+	</form>
 <!-- parte inicial del grupo de los botones -->			
 				<legend></legend>
 				<div class="container col-md-10">
 
-						<input id="btn-Guardar" type="button" class="btn btn-primary" value="Guardar"></input>	
+						<input id="btn-Guardar" type="button" class="btn btn-primary" value="Guardar">	
 								
-						<input id="btn-Actualizar" type="button" class="btn btn-success" value="Actualizar"></input>
+						<input id="btn-Actualizar" type="button" class="btn btn-success" value="Actualizar">
 								
 						<button type="submit" class="btn btn-danger">Eliminar</button>
 
@@ -222,68 +222,68 @@ include("Menu1.php");
         <h4 class="modal-title" id="gridSystemModalLabel">DATOS CORPORALES INICIALES</h4>
       </div>
 
-<div class="modal-body">
-<form id="form2" method="POST">
+		<div class="modal-body">
+			<form id="form2" method="POST">
 				<div class="row">
-						<div class="col-md-6 form-group-sm">
-						    <div class="form-group">
-    							<label class="col-sm-3 control-label" id="labelclave">Fecha:</label>
-	    						<div class="col-sm-7">
-	     							<input id="fechainicio" name="fechainicio" type="text" class="form-control"  placeholder="Fecha de Inicio" required="">
-	    						</div>
-						    </div>
+					<div class="col-md-6 form-group-sm">
+					    <div class="form-group">
+			    			<label class="col-sm-3 control-label" id="labelclave">Fecha:</label>
+							<div class="col-sm-7">
+								<input id="fechainicio" name="fechainicio" type="text" class="form-control"  placeholder="Fecha de Inicio" required="">
+							</div>
 						</div>
+					</div>
 				</div>
 
-			<div class="row">
-				<div class="col-md-6 form-group-sm">
-					<div class="form-group">
+				<div class="row">
+					<div class="col-md-6 form-group-sm">
+						<div class="form-group">
 						<label class="col-md-3 control-label id=" id="labelclave">Peso:</label>			
-						<div class="col-sm-7">
-							<input id="peso" name="peso" type="text" class="form-control" id="cupo1" placeholder="Peso Nuevo" required=""></input>
-						</div>	
-					</div>
-				</div>	
-			</div>
+							<div class="col-sm-7">
+								<input id="peso" name="peso" type="text" class="form-control" id="cupo1" placeholder="Peso Nuevo" required="">
+							</div>	
+						</div>
+					</div>	
+				</div>
 
-			<div class="row">
-				<div class="col-md-6 form-group-sm">
-					<div class="form-group">
-						<label class="col-md-3 control-label id=" id="labelclave">Medida:</label>
-						<div class="col-sm-7">
-							<input id="medidapierna" name="medidapierna" type="text" class="form-control" placeholder="Medida-Pierna" required=""></input>
-						</div>	
+				<div class="row">
+					<div class="col-md-6 form-group-sm">
+						<div class="form-group">
+							<label class="col-md-3 control-label id=" id="labelclave">Medida:</label>
+							<div class="col-sm-7">
+								<input id="medidapierna" name="medidapierna" type="text" class="form-control" placeholder="Medida-Pierna" required="">
+							</div>	
+						</div>
 					</div>
 				</div>
-			</div>
 
-			<div class="row">
-				<div class="col-md-6 form-group-sm">
-					<div class="form-group">
-						<label class="col-sm-3 control-label id=" id="labelclave">Medida:</label>			
-						<div class="col-sm-7">
-							<input id="medidacintura" name="medidacintura" type="text" class="form-control"  placeholder="Medida-Cintura" required=""></input>
-						</div>	
+				<div class="row">
+					<div class="col-md-6 form-group-sm">
+						<div class="form-group">
+							<label class="col-sm-3 control-label id=" id="labelclave">Medida:</label>			
+							<div class="col-sm-7">
+								<input id="medidacintura" name="medidacintura" type="text" class="form-control"  placeholder="Medida-Cintura" required="">
+							</div>	
+						</div>
 					</div>
 				</div>
-			</div>
 
-			<div class="row">
-				<div class="col-md-6 form-group-sm">
-					<div class="form-group">
-						<label class="col-sm-6 control-label id=" id="labelclave">Observaciones:</label>			
-						<div class="col-sm-7">
-							<textarea id="observaciones" name="observaciones" class="form-control" rows="3" placeholder="Escriba las Observaciones del cliente" required=""></textarea>
-						</div>	
+				<div class="row">
+					<div class="col-md-6 form-group-sm">
+						<div class="form-group">
+							<label class="col-sm-6 control-label id=" id="labelclave">Observaciones:</label>			
+							<div class="col-sm-7">
+								<textarea id="observaciones" name="observaciones" class="form-control" rows="3" placeholder="Escriba las Observaciones del cliente" required=""></textarea>
+							</div>	
+						</div>
 					</div>
 				</div>
-			</div>
-</form>
- </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-        <button type="button" class="btn btn-primary">Guardar</button>
-      </div>
+			</form>
+		</div>
+	    <div class="modal-footer">
+		    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+	    	<button type="button" class="btn btn-primary">Guardar</button>
+	    </div>
 
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
@@ -293,9 +293,9 @@ include("Menu1.php");
 
 <!-- Parte del label de buscar -->
 <legend></legend>
-		<div class="col-xs-3">
-				<input type="text" class="form-control input-sm" id="" placeholder="Buscar...">
-		</div>
+	<div class="col-xs-3">
+		<input type="text" class="form-control input-sm" id="" placeholder="Buscar...">
+	</div>
 <!-- PARTE FINAL DEL LABEL BUSCAR-->
 
 
@@ -303,75 +303,71 @@ include("Menu1.php");
 <section class="container col-md-12">
 	
 	<div class="row">
-	<div class="col-md-12">
-		<div class="panel panel-primary">
-			
-			<div class="panel-heading">
-				<h3 class="panel-title h3cab">Tabla de Todos los Clientes</h3>
+		<div class="col-md-12">
+			<div class="panel panel-primary">
+				
+				<div class="panel-heading">
+					<h3 class="panel-title h3cab">Tabla de Todos los Clientes</h3>
+				</div>
+
+				<div class="panel-body">
+					<div class="table-responsive">
+						<table class="table table-hover">
+							<tr>
+								<th width="150">Nombre</th>
+								<th width="30">Celular</th>
+								<th width="20">Edad</th>
+								<th width="50">Estatura</th>
+								<th width="150">Direccion</th>
+								<th width="150">Fecha-Ingreso</th>
+								<th width="150">Fecha-Mensualidad</th>
+								<th width="90">Disciplina</th>
+								<th width="50"> OPTIONES</th>
+							</tr>
+							<?php
+									
+								$conexion=mysqli_connect("localhost", "root", "alan95", "sportcenterx");
+
+								$sql="SELECT * FROM cliente ORDER BY Id_Cliente ASC";
+								$resultado = mysqli_query($conexion, $sql);
+									
+									while ($registro2 = mysqli_fetch_array($resultado)) {
+										echo '
+											<tr>
+												<td>'.$registro2['Nombre_Completo'].'</td>
+												<td>'.$registro2['Celular'].'</td>
+												<td>'.$registro2['Edad'].'</td>
+												<td>'.$registro2['Estatura'].'</td>
+												<td>'.$registro2['Direccion'].'</td>
+												<td>'.$registro2['Fecha_Ingreso'].'</td>
+												<td>'.$registro2['Fecha_Mensualidad'].'</td>
+												<td>'.$registro2['Disciplina'].'</td>
+												<td>
+													<button><a href="javascript:eliminarclase('.$registro2['Id_Cliente'].');" class="glyphicon glyphicon-remove-circle"></a></button>
+													<button id="btneditar"><a href="javascript:editarclase('.$registro2['Id_Cliente'].');" class="glyphicon glyphicon-edit"></a></button>
+												</td>
+
+											</tr>
+										';
+									}
+								?>
+						</table>
+					</div>
+				</div>
 			</div>
-
-			<div class="panel-body">
-				<div class="table-responsive">
-					<table class="table table-hover">
-						<tr>
-							<th width="150">Nombre</th>
-							<th width="30">Celular</th>
-							<th width="20">Edad</th>
-							<th width="50">Estatura</th>
-							<th width="150">Direccion</th>
-							<th width="150">Fecha-Ingreso</th>
-							<th width="150">Fecha-Mensualidad</th>
-							<th width="90">Disciplina</th>
-							<th width="50"> OPTIONES</th>
-						</tr>
-						<?php
-								
-							$conexion=mysqli_connect("localhost", "root", "Inside09", "sistemas");
-
-							$sql="SELECT * FROM cliente ORDER BY Id_Cliente ASC";
-							$resultado = mysqli_query($conexion, $sql);
-								
-								while ($registro2 = mysqli_fetch_array($resultado)) {
-									echo '
-										<tr>
-											<td>'.$registro2['Nombre_Completo'].'</td>
-											<td>'.$registro2['Celular'].'</td>
-											<td>'.$registro2['Edad'].'</td>
-											<td>'.$registro2['Estatura'].'</td>
-											<td>'.$registro2['Direccion'].'</td>
-											<td>'.$registro2['Fecha_Ingreso'].'</td>
-											<td>'.$registro2['Fecha_Mensualidad'].'</td>
-											<td>'.$registro2['Disciplina'].'</td>
-											<td>
-												<button><a href="javascript:eliminarclase('.$registro2['Id_Cliente'].');" class="glyphicon glyphicon-remove-circle"></a></button>
-												<button id="btneditar"><a href="javascript:editarclase('.$registro2['Id_Cliente'].');" class="glyphicon glyphicon-edit"></a></button>
-											</td>
-
-										</tr>
-									';
-								}
-							?>
-					</table>
-			</div>
-			</div>
-
 		</div>
-
 	</div>
-	</div>
-
 </section>
 <!-- PARTE FINAL DE LA TABLA -->
 
 
 </body>
-</html>
+
 
 <script type="text/javascript">
-
 $('form1').ready(function(){
 		$('#btn-Guardar').click(function(){
-			var Nombre = $('#Nombre').val;
+			var Nombre = $('#Nombre').val();
 			var Edad = $('#Edad').val();
 			var Celular = $('#Celular').val();
 			var Estatura = $('#Estatura').val();
@@ -381,6 +377,13 @@ $('form1').ready(function(){
 			var Disciplina = $('#Disciplina').val();
 
 			alert(Nombre);
+			alert(Edad);
+			alert(Celular);
+			alert(Estatura);
+			alert(Direccion);
+			alert(Fechaingreso);
+			alert(Fechamensualidad);
+			alert(Disciplina);
 
 			var url = "phpclientes/GuardarCliente.php";
 			var total = Nombre.length * Edad.length * Celular.length * Estatura.length * Direccion.length * Fechaingreso.length * Fechamensualidad.length * Disciplina.length;
@@ -413,3 +416,4 @@ $('form1').ready(function(){
 
 
 </script>
+</html>

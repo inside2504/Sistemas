@@ -1,6 +1,6 @@
 <?php
 
-$conexion=mysqli_connect("localhost", "root", "Inside09", "sistemas");
+$conexion=mysqli_connect("localhost", "root", "alan95", "sportcenterx");
 
 
 if(isset($_POST["Disciplina"]) && isset($_POST["Costo"]) && isset($_POST["Costo"]) && isset($_POST["Horario"])){
